@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo a Agropecuária</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Aprendendo a Agropecuária</h1>
+        
+        <div class="course-container">
+            <h2>Cursos</h2>
+            <div class="course" id="course1">
+                <h3>Práticas de Cultivo</h3>
+                <p>Aprenda sobre técnicas de cultivo, desde a preparação do solo até a colheita.</p>
+                <button class="details-btn">Ver Detalhes</button>
+            </div>
+            <div class="course" id="course2">
+                <h3>Gestão de Animais</h3>
+                <p>Descubra como gerenciar a saúde e o bem-estar dos animais em uma fazenda.</p>
+                <button class="details-btn">Ver Detalhes</button>
+            </div>
+            <div class="course" id="course3">
+                <h3>Tecnologias Emergentes</h3>
+                <p>Explore as novas tecnologias que estão transformando a agropecuária.</p>
+                <button class="details-btn">Ver Detalhes</button>
+            </div>
+        </div>
+
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <span class="close-btn" id="closeBtn">&times;</span>
+                <h2 id="modalTitle"></h2>
+                <p id="modalDescription"></p>
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
